@@ -11,7 +11,8 @@ Bu döküman Motor Sürücü Kart'ının tanımını ve çalışma prensibini a�
 ![mtrdriverdimensions](Images/mtrdriverdimensions.png)
 ![motorsürücü3dön](Images/motorsürücü3dön.png)
 ![motorsürücüarka](Images/motorsürücü3darka.png)
-Pdf [MotorDrive](Circuit/MotorDrive.pdf)
+
+Pdf [MotorDrive](Mechanic/MotorDrive.pdf)
 
 ## 4 . PİN AÇIKLAMALARI
 J1 için: 2 adet DC motor sürmek için kullanılan giriş pimleridir.
@@ -42,10 +43,14 @@ J2 için: 1 adet Step motor sürmek için kullanılan çıkış pimleridir.
 
 ### 6. Devre
 ![circuit](Images/circuit.png)
+
 Data Sheet [LV8548MC](Circuit/LV8548MC.pdf)
+
 Sch File [MotorDriver](Circuit/Motor_Driver.pdf) 
-Bom List [BomList](Circuit/Motor_Driver_1.6_Black.zip) 
-Gerber File [Gerber](Circuit/Motor_Driver.pdf) 
+
+Bom List [BomList](Circuit/Motor_Driver_BomList.pdf) 
+
+Gerber File [Gerber](Circuit/Motor_Driver_1.6_Black.zip) 
 
 ## GENEL BAKIŞ 
 DC Motor Sürücü Kartı 2 adet DC motor 1 Adet Step motor sürmek için tasarlanmıştır. Aynı anda hem DC hem Step motor sürülmesi önerilmez.Prototiplemeye imkan sağlaması, arduino ve çeşitli devrelerde rahatça kullanılabilmesi için gerekli pinler devre kartı sayesinde dışarıya alınmıştır.Standart pin yapısı sayesinde rahatça kontrol edilebilir. Jumper kablolar ile bağlantıları yapılabilir. Sürücü IC olarak LV8548MC Motor Driver kullanılmıştır.Detaylı bilgi için linkler incelenebilir.
